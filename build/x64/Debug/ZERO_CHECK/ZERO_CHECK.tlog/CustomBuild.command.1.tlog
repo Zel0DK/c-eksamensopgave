@@ -1,0 +1,10 @@
+^C:\USERS\RASMU\DESKTOP\PROGRAMMERING\BUILD\CMAKEFILES\F9DC385A287E8CD14CFD77A6CBC41A0F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Rasmu/Desktop/Programmering -BC:/Users/Rasmu/Desktop/Programmering/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Rasmu/Desktop/Programmering/build/Programmering.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
