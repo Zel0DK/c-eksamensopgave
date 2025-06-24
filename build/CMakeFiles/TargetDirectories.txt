@@ -1,3 +1,0 @@
-C:/Users/Rasmu/Desktop/Programmering/build/CMakeFiles/LetterCounter.dir
-C:/Users/Rasmu/Desktop/Programmering/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Rasmu/Desktop/Programmering/build/CMakeFiles/ZERO_CHECK.dir
